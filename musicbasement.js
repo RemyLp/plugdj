@@ -252,7 +252,7 @@
         loggedInID: null,
         scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbasement.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://cdn.rawgit.com/RemyLp/custom/ba788173/lang/en.json',
+        chatLink: 'https://cdn.rawgit.com/RemyLp/source/44d5c4d6/lang/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -260,7 +260,7 @@
         settings: {
             botName: 'Basement Bot',
             language: 'english',
-            chatLink: 'https://cdn.rawgit.com/RemyLp/custom/ba788173/lang/en.json',
+             chatLink: 'https://cdn.rawgit.com/RemyLp/source/44d5c4d6/lang/en.json',
             scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbasement.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
