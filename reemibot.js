@@ -30,7 +30,7 @@
     var kill = function() {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.afkInterval);
-        basicBot.status = false;
+        basicBot.status = true;
     };
 
     // This socket server is used solely for statistical and troubleshooting purposes.
