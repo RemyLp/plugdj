@@ -252,7 +252,7 @@
         loggedInID: null,
         scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/remiplugbot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
+        chatLink: 'https://rawgit.com/RemyLp/custom/master/mylanguage.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -260,7 +260,7 @@
         settings: {
             botName: 'Basement Bot',
             language: 'czech',
-            chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
+            chatLink: 'https://rawgit.com/RemyLp/custom/master/mylanguage.json',
             scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/remiplugbot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
