@@ -241,16 +241,16 @@
         return str;
     };
 
-    var botCreator = 'Yemasthui';
-    var botMaintainer = 'Benzi'
+    var botCreator = 'Reemi';
+    var botMaintainer = 'Reemi'
     var botCreatorIDs = ['3851534', '4105209'];
 
     var basicBot = {
-        version: '2.10.0',
+        version: '1.0 By Reemi',
         status: true,
         name: 'Basement Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/basementbot.js',
+        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/remiplugbot.js',
         cmdLink: 'http://git.io/245Ppg',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         chat: null,
@@ -259,9 +259,9 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: 'Basement Bot',
-            language: 'english',
+            language: 'czech',
             chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
-            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/basementbot.js',
+            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/remiplugbot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
@@ -292,27 +292,27 @@
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
-                ['theme', 'This song does not fit the room theme. '],
-                ['op', 'This song is on the OP list. '],
-                ['history', 'This song is in the history. '],
-                ['mix', 'You played a mix, which is against the rules. '],
-                ['sound', 'The song you played had bad sound quality or no sound. '],
+                ['theme', 'Tento song zde nepatri... '],
+                ['op', 'Tento song je na OP liste. '],
+                ['history', 'Prepac @ ale tenhle song je uz v historii. '],
+                ['mix', 'Hrajes hudbu ktera nerespektuje pravidla... '],
+                ['sound', 'Hudba kterou hrajes ma spatnou kvalitu nebo neobsahuje zvuk hudby... '],
                 ['nsfw', 'The song you contained was NSFW (image or sound). '],
-                ['unavailable', 'The song you played was not available for some users. ']
+                ['unavailable', 'Prepac , ale tenhle song pre nektere uzivatele neni dostupny. ']
             ],
             afkpositionCheck: 15,
             afkRankCheck: 'ambassador',
-            motdEnabled: false,
+            motdEnabled: true,
             motdInterval: 5,
-            motd: 'Temporary Message of the Day',
+            motd: 'Pozvi sem sve kamose a dostan Re-DJ nebo Vyhazovace!',
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
-            youtubeLink: null,
+            fbLink: 'http://facebook.com/akafukacz',
+            youtubeLink: 'http://youtube.com/remiholp',
             website: null,
             intervalMessages: [],
             messageInterval: 5,
