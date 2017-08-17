@@ -259,7 +259,7 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: 'Basement Bot',
-            language: 'czech',
+            language: 'english',
             chatLink: 'https://cdn.rawgit.com/RemyLp/custom/ba788173/lang/en.json',
             scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/remibotplug.js',
             roomLock: false, // Requires an extension to re-load the script
