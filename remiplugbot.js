@@ -264,15 +264,15 @@
             scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/basementbot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupVolume: 50, // 0-100
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
-            maximumAfk: 150,
+            maximumAfk: 260,
             afkRemoval: true,
-            maximumDc: 60,
+            maximumDc: 120,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -284,7 +284,7 @@
             voteSkipLimit: 5,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 7,
             autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
