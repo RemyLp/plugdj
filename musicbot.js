@@ -250,7 +250,7 @@
         status: true,
         name: 'Basement Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbasement.js',
+        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbot.js',
         cmdLink: 'http://git.io/245Ppg',
         chatLink: 'https://rawgit.com/RemyLp/source/master/lang/eng.json',
         chat: null,
@@ -261,7 +261,7 @@
             botName: 'Basement Bot',
             language: 'english',
              chatLink: 'https://rawgit.com/RemyLp/source/master/lang/eng.json',
-            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbasement.js',
+            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
