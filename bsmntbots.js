@@ -246,13 +246,13 @@
     var botCreatorIDs = ['3851534', '4105209'];
 
     var basicBot = {
-        version: '1.0 By Reemi',
+        version: '1.0 Edited By Reemi',
         status: true,
         name: 'Basement Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbot.js',
+        scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/bsmntbots.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://rawgit.com/RemyLp/source/master/lang/eng.json',
+        chatLink: 'https://rawgit.com/RemyLp/source/master/lang/enn.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -260,8 +260,8 @@
         settings: {
             botName: 'Basement Bot',
             language: 'english',
-             chatLink: 'https://rawgit.com/RemyLp/source/master/lang/eng.json',
-            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/musicbot.js',
+             chatLink: 'https://rawgit.com/RemyLp/source/master/lang/enn.json',
+            scriptLink: 'https://rawgit.com/RemyLp/plugdj/Reemi/bsmntbots.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 50, // 0-100
